@@ -14,13 +14,17 @@
 
 int main(){
     // Khai báo biến
-
+float diemToan=0,diemLy=0,diemHoa=0,diemTrungBinh=0;
     // Nhập dữ liệu
-
-
+printf("hãy nhập điểm toán :\n");
+scanf("%f",&diemToan);
+printf("hãy nhập điểm lý :\n");
+scanf("%f",&diemLy);
+printf("hãy nhập điểm hóa :\n");
+scanf("%f",&diemHoa);
     // Xử lý, tính toán
-
+diemTrungBinh= (diemHoa+ diemLy+diemToan)/3;
     // Hiển thị kết quả
-
-
+printf("Điểm trung bình :%.2f",diemTrungBinh);
+return 0;
 }
