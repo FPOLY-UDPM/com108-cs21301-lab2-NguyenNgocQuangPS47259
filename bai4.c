@@ -23,7 +23,7 @@ scanf("%f",&diemLy);
 printf("hãy nhập điểm hóa :\n");
 scanf("%f",&diemHoa);
     // Xử lý, tính toán
-diemTrungBinh= (diemHoa+ diemLy+diemToan)/3;
+diemTrungBinh= (diemHoa+ diemLy*2+diemToan*3)/6;
     // Hiển thị kết quả
 printf("Điểm trung bình :%.2f",diemTrungBinh);
 return 0;

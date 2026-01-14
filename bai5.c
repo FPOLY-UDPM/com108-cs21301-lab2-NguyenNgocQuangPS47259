@@ -16,10 +16,10 @@ int main(){
     printf("hãy nhập giá trị so2 :");
     scanf("%f",&so2);
     tich=so1*so2;
-    printf("tích số của số 1 và 2 là:%.2f\n",tich);
+    printf("tích số của số 1 và 2 là :%.2f\n",tich);
     if (so2==0)
     {
-        printf("phương trình vô nghiệm");
+        printf("bạn thực sự muốn chia một số cho 0 ?");
     }else
     {
         printf("thương số của số 1 và 2 là : %.2f\n",so1/so2);
